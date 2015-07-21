@@ -1,0 +1,9 @@
+starbound:
+  build: .
+  ports:
+    - "21025:21025"
+    - "21026:21026"
+  volumes:
+    - starbound:/starbound
+  env_file: steam.env
+  restart: always
