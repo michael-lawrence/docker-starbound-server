@@ -3,7 +3,7 @@ _Run a Starbound server with Docker!_
 
 #### How to use this image
 
-`docker run --name starbound -dp -e STEAM_USERNAME=xxxx -e STEAM_PASSWORD=xxxx michaellawrence/docker-starbound-server`
+`docker run --name starbound -dp -v starbound:/starbound -e STEAM_USERNAME=xxxx -e STEAM_PASSWORD=xxxx michaellawrence/docker-starbound-server`
 
 Also a sample docker-compose.yml file has been provided. Simply run the following in the current directory:
 
