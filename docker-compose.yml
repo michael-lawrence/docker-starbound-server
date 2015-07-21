@@ -1,5 +1,5 @@
 starbound:
-  build: .
+  image: michaellawrence/docker-starbound-server
   ports:
     - "21025:21025"
     - "21026:21026"
