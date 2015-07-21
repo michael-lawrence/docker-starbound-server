@@ -9,7 +9,7 @@ Also a sample docker-compose.yml file has been provided. Simply run the followin
 
 `docker-compose up`
 
-_Make sure to create a __steam.env__ file with your Steam user name and password in it if you choose to use the Docker Compose method. A sample is provided._
+_Make sure to create a **steam.env** file with your Steam user name and password in it if you choose to use the Docker Compose method. A sample is provided._
 
 ##### Notes
 
