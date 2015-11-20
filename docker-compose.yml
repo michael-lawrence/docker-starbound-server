@@ -4,6 +4,6 @@ starbound:
     - "21025:21025"
     - "21026:21026"
   volumes:
-    - starbound:/starbound
+    - ./starbound:/starbound/
   env_file: steam.env
   restart: always
